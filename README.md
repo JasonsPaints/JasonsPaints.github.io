@@ -1,4 +1,2 @@
-# eclipseGroupies.github.io
-our site
-## this is not a game!
-### couldn't be more serious.
+# the eclipse groupies!
+we follow eclipses around the world, we are also known as the happy totality trackers!
