@@ -9,9 +9,10 @@
                 width:100px;
             }
             #imageplace-build {
+                width:500;
                 display:none;
                 position:fixed;
-                top:-100;
+                top:100px;
             }
         </style>
     </head>
@@ -20,7 +21,7 @@
             <img src="image_painting_1.JPG">
         </div>
         <div id="painting_imbeds">
-            <a href="javascript:;">
+            <a href="javascript:document.getElementById('imageplace-build').innerHTML="+"<img id='imageplace-build'"+" src='image_painting_1.JPG'>';">
                 <img class="pi" src="image_painting_1.JPG"> <br>splash
             </a>
         </div>
