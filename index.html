@@ -15,13 +15,18 @@
                 top:100px;
             }
         </style>
+        <script>
+            function ibuild(img){
+                document.getElementById("imageplace-build").innerHTML="<img src="+img+">";
+            }
+        </script>
     </head>
     <body style="background-color:skyblue;">
         <div id="imageplace-build">
             <img src="image_painting_1.JPG">
         </div>
         <div id="painting_imbeds">
-            <a href="javascript:document.getElementById('imageplace-build').innerHTML="+"<img id='imageplace-build'"+" src='image_painting_1.JPG'>';">
+            <a href="javascript:ibuild('image_painting_1.JPG');">
                 <img class="pi" src="image_painting_1.JPG"> <br>splash
             </a>
         </div>
